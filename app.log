@@ -1,0 +1,21 @@
+2026-03-26 14:06:09,739 [INFO] Starting order processing...
+2026-03-26 14:07:01,203 [INFO] Starting order processing...
+2026-03-26 14:07:40,443 [INFO] Starting order processing...
+2026-03-26 14:08:04,878 [INFO] Starting order processing...
+2026-03-26 14:08:05,153 [INFO] Weather for Mumbai: Smoke
+2026-03-26 14:08:05,153 [INFO] Weather for London: Clouds
+2026-03-26 14:08:05,156 [ERROR] Error for InvalidCity123: {"cod":"404","message":"city not found"}
+2026-03-26 14:08:05,183 [INFO] Weather for New York: Clouds
+2026-03-26 14:08:05,185 [WARNING] Skipping invalid city: InvalidCity123
+2026-03-26 14:08:05,187 [INFO] Processing complete. Output saved to orders_updated.json
+2026-03-26 14:16:35,225 [INFO] Starting order processing...
+2026-03-26 14:16:35,779 [INFO] Weather for London: Clouds
+2026-03-26 14:16:35,780 [ERROR] Error for InvalidCity123: {"cod":"404","message":"city not found"}
+2026-03-26 14:16:35,782 [INFO] Weather for Mumbai: Smoke
+2026-03-26 14:16:35,783 [INFO] Weather for New York: Clouds
+2026-03-26 14:16:35,786 [INFO] DELAYED ORDER: 1001
+2026-03-26 14:16:35,787 [INFO] Message: Hi Alice Smith, your order to New York is delayed due to clouds. We appreciate your patience!
+2026-03-26 14:16:35,788 [INFO] DELAYED ORDER: 1003
+2026-03-26 14:16:35,788 [INFO] Message: Hi Charlie Green, your order to London is delayed due to clouds. We appreciate your patience!
+2026-03-26 14:16:35,789 [WARNING] Skipping invalid city: InvalidCity123
+2026-03-26 14:16:35,790 [INFO] Processing complete. Output saved to orders_updated.json

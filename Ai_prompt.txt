@@ -1,0 +1,3 @@
+AI Apology Message:
+Prompt: "Write a one-line friendly message for a customer whose order is delayed due to weather..."
+Outcome: Generated personalized apology messages in generate_apology() function.
